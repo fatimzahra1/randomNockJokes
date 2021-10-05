@@ -9,6 +9,7 @@ message.content = ["Who's there? Says. Says who? Says me, that's who!",
 ]
 
 function displayRandom() {
+    console.log(message.head)
     const myArray = message.content
     const item = myArray[Math.floor(Math.random() * myArray.length)];
     console.log(item)
